@@ -15,24 +15,34 @@ Follow the instructions below to complete Deliverable 1.
 - I picked Pets.
 
 - 2. Create a new database with Amazon RDS just as you did in this module.
+
 ![pic](./Images/SparksDF.png)
+
 - 3. In pgAdmin, create a new database in your Amazon RDS server that you just create.
+
 ![pic](./Images/PGDB.png)
+
 - 4. Download the challenge_schema.sql file to your computer.
 	- See GitHub
 In pgAdmin, run a new query to create the tables for your new database using the code from the challenge_schema.sql file.
+
 ![pic](./Images/PGTables.png)
+
 -  5. After you run the query, you should have the following four tables in your database: 
 	1 customers_table
+
 ![pic](./Images/Cust.png)
 
 	2 products_table
+
 ![pic](./Images/prod.png)
 
 	3 review_id_table
+
 ![pic](./Images/review1.png)
 
 	4 vine_table.
+
 ![pic](./Images/vine.png)
 
 
@@ -44,8 +54,11 @@ In pgAdmin, run a new query to create the tables for your new database using the
 To begin with, I filtered the available reviews to just those with more than 20 votes, and those which were more than 50% "helpful." 
 
 Reviews with 20+ votes
+
 ![pic](./Images/vinedf20.png)
+
 More than 50% helpful
+
 ![pic](./Images/vinedf2.png)
 
 Calculations were made from this filtered dataset to address the following questions:
